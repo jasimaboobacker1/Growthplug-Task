@@ -282,7 +282,7 @@ margin-bottom: 30px;
     align-items: center;
     justify-content: center;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
-                url('https://gp-assets-1.growthplug.com/website_files/5087/rev3-photo_1.webp');
+                url('./Assets/dentalClinicpic.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -322,6 +322,11 @@ margin-bottom: 30px;
     flex-direction: column;
     color: white;
     align-items: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+                url(./Assets/Review\ image\ bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .review-section h1{
     font-size: 60px;
@@ -357,20 +362,138 @@ margin-bottom: 30px;
     color: white;
     border-radius: 50%;
     position: relative;
-    top: -347px; 
-    left: 0%;
+    top: -440px; 
+    left: 42%;
+    z-index: 16;
+
 }
 
 
 .swiper {
-    width: 1700px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid black;
+    width: 1600px;
+    height: 450px;
   }
 
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2a619c;
+    position: absolute;
+  }
+
+  .swiper-slide img {
+    width: 350px;
+    height: 80px;
+  }
+
+
+  /* invisalign section */
+
+  .invisalign-section{
+    width: 100%;
+    height: 950px;
+    background-color: beige;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+    url(./Assets/Invisalign.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .invisalign-section h1{
+    color: white;
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-weight: lighter;
+
+}
+
+.invisalign-button{
+    width: auto;
+    padding: 10px 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    color: #135caa;
+}
+
+
+.footer-section{
+    width: 100%;
+    height: 400px;
+    background-color: cadetblue;
+    padding: 0px 300px;
+
+}
+
+.footer-content{
+    width: 100%;
+    height: 100%;
+    background-color: #cba951;
+    display: flex;
+    flex-direction: column;
+}
+
+.up-footer{
+    width: 100%;
+    height: 70%;
+    background-color: #135caa;
+    display: flex;
+}
+.down-footer{
+    width: 100%;
+    height: 30%;
+
+}
+
+.footerboxex{
+    width: 33.3333333%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footerboxexs{
+    width: 33.3333333%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    margin-top: 30px;
+}
+
+.icons i{
+    margin-left: 9px;
+}
+
+.footerbutton{
+    width: auto;
+    font-size: 20px;
+    padding: 6px 20px ;
+    border-radius: 6px;
+    border: none;
+    background-color: #cba951 ;
+    color: white;
+    margin-top: 20px;
+
+}
 
 
 
