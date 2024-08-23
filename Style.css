@@ -527,19 +527,191 @@ margin-bottom: 30px;
 .specialities-boxes{
   width: 100%;
   height: 700px;
-  border:  3px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
 
   
 }
 .sp-box{
   width: 500px;
-  height: 500px;
+  height: 400px;
   background-color: white;
   border: 2px solid #135caa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
+.sp-box h2{
+  font-size: 30px;
+  font-weight: lighter;
+}
+.sp-box p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: grey;
+  margin-top: 20px;
+}
+.sp-box h4{
+  font-size: 25px;
+  font-weight: 200;
+  color: grey;
+  margin-top: 40px;
+
+}
+
+.box-head{
+  width: 130px;
+  height: 130px;
+  background-color:white;
+  border: 2px solid #135caa;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: -204%;
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 1; 
+
+}
+
+.imghead{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #cba951;
+  background: url('./Assets/teeth.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.sp-box2{
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border: 2px solid #135caa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.sp-box2 h2{
+  font-size: 30px;
+  font-weight: lighter;
+}
+.sp-box2 p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: grey;
+  margin-top: 20px;
+}
+.sp-box2 h4{
+  font-size: 25px;
+  font-weight: 200;
+  color: grey;
+  margin-top: 40px;
+
+}
+
+.box-head2{
+  width: 130px;
+  height: 130px;
+  background-color:white;
+  border: 2px solid #135caa;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: -204%;
+  left: 21.7%; 
+  transform: translateX(-50%); 
+  z-index: 1; 
+
+}
+
+.imghead2{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #cba951;
+  background: url('./Assets/teeth2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.sp-box3{
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border: 2px solid #135caa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.sp-box3 h2{
+  font-size: 30px;
+  font-weight: lighter;
+}
+.sp-box3 p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: grey;
+  margin-top: 20px;
+}
+.sp-box3 h4{
+  font-size: 25px;
+  font-weight: 200;
+  color: grey;
+  margin-top: 40px;
+
+}
+
+.box-head3{
+  width: 130px;
+  height: 130px;
+  background-color:white;
+  border: 2px solid #135caa;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: -204%;
+  left: 78.5%; 
+  transform: translateX(-50%); 
+  z-index: 1; 
+
+}
+
+.imghead3{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #cba951;
+  background: url('./Assets/teeth3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
 
 
 
@@ -865,6 +1037,218 @@ margin-bottom: 30px;
   color: #135caa;
   margin-top: 20px;
 }
+
+.specialities-section{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to top, #bce2ef, transparent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35px;
+  padding:0px 140px;
+
+}
+
+.specialities-boxes{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.specialities-section h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.sp-box{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border: 2px solid #135caa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.sp-box h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.sp-box p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  color: grey;
+  margin-top: 20px;
+}
+.sp-box h4{
+  font-size: 15px;
+  font-weight: 200;
+  color: grey;
+  margin-top: 40px;
+
+}
+
+.box-head{
+  width: 130px;
+  height: 130px;
+  background-color:white;
+  border: 2px solid #135caa;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: -204%;
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 1; 
+  display: none;
+
+}
+
+.imghead{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #cba951;
+  background: url('./Assets/teeth.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.sp-box2{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border: 2px solid #135caa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+.sp-box2 h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.sp-box2 p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  color: grey;
+  margin-top: 20px;
+}
+.sp-box2 h4{
+  font-size: 15px;
+  font-weight: 200;
+  color: grey;
+  margin-top: 40px;
+
+}
+
+.box-head2{
+  width: 130px;
+  height: 130px;
+  background-color:white;
+  border: 2px solid #135caa;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: -204%;
+  left: 21.7%; 
+  transform: translateX(-50%); 
+  z-index: 1; 
+  
+display: none;
+
+}
+
+.imghead2{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #cba951;
+  background: url('./Assets/teeth2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.sp-box3{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border: 2px solid #135caa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+
+}
+.sp-box3 h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.sp-box3 p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  color: grey;
+  margin-top: 20px;
+}
+.sp-box3 h4{
+  font-size: 15px;
+  font-weight: 200;
+  color: grey;
+  margin-top: 40px;
+
+}
+
+.box-head3{
+  width: 130px;
+  height: 130px;
+  background-color:white;
+  border: 2px solid #135caa;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: -204%;
+  left: 78.5%; 
+  transform: translateX(-50%); 
+  z-index: 1; 
+  display: none;
+
+
+}
+
+.imghead3{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #cba951;
+  background: url('./Assets/teeth3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
     
     
     
