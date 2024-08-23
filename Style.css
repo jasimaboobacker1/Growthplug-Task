@@ -57,12 +57,14 @@ header {
   list-style: none;
   display: flex;
 }
-
-.down li {
+.navlist{
+  font-size: 23px;
   margin-left: 40px;
   font-size: 24px;
   color: #2a619c;
 }
+
+
 #check{
   display: none;
 }
@@ -185,9 +187,9 @@ header {
   }
   .about-right h1{
     font-family: "Noto Sans", sans-serif;
-    font-weight: lighter;
-    font-size: 80px;
+    font-size: 40px;
     margin-bottom: 30px;
+    color: #135caa;
   }
 
   .aboutbutton{
@@ -210,7 +212,7 @@ header {
   }
 
   .contentbox{
-    width: 1450px;
+    width: 1250px;
     height: 400px;
     background-color:#135caa;
     border-radius: 20px;
@@ -221,15 +223,14 @@ header {
     box-shadow: rgba(50, 50, 93, 0.753) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   }
 
-  .contentbox h1{
-    font-size: 65px;
+  .welcheading{
+    font-size: 45px;
     color: white;
     font-family: "Noto Sans", sans-serif;
-    font-weight: lighter;
   }
 
-  .contentbox p{
-    font-size: 25px;
+  .welcpara{
+    font-size: 20px;
     text-align: center;
     color: white;
     margin: 10px;
@@ -268,6 +269,12 @@ header {
   font-size: 35px;
   padding:0px 140px;
 
+}
+
+
+
+.sp-heading{
+  font-size: 40px;
 }
 
 .specialities-boxes{
@@ -358,8 +365,9 @@ header {
     flex-direction: column;
     align-items: center;
 }
-.meetdoctor-section h1{
-    font-size: 80px;
+
+.meetdocheading{
+  font-size: 50px;
     color: #135caa;
 }
 
@@ -431,6 +439,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  margin-top: 90px;
 
 }
 
@@ -518,8 +527,9 @@ header {
     background-size: cover;
     background-attachment: fixed;
 }
-.review-section h1{
-    font-size: 60px;
+.revheading{
+    font-size: 40px;
+    margin-top: 30px;
 }
 
 .container{
