@@ -13,66 +13,75 @@ header {
     z-index: 1000; 
 }
 
+
 .navbar {
-    width: 100%;
-    height: 119px;
-    padding:  10px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  height: 119px;
+  padding: 10px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
-.logo img{
-    width: 250px;
-    height: 100px;
+.logo img {
+  width: 250px;
+  height: 100px;
 }
 
 .righticons {
-    width: 1500px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.navbuttons {
-    background-color: rgb(224, 224, 233);
-    padding: 6px;
-    font-size: 21px;
-    border-radius: 5px;
-    border: none;
-    background-color: #2a619c;
-    color: white;
-    margin-left: 20px;
-    font-family: "Noto Sans", sans-serif;
-}
-
-.down li {
-    display: inline;
-    margin-left: 40px;
-    font-size: 29px;
-    color: #2a619c;
-    font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
 .up {
-    width: 1300px;
-    display: flex;
-    justify-content: end;
-
+  display: flex;
+  justify-content: end;
 }
 
+.navbuttons {
+  background-color: #2a619c;
+  color: white;
+  padding: 6px;
+  font-size: 21px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Noto Sans", sans-serif;
+}
 
+.down ul {
+  list-style: none;
+  display: flex;
+}
+
+.down li {
+  margin-left: 40px;
+  font-size: 29px;
+  color: #2a619c;
+}
+#check{
+  display: none;
+}
+
+.checkbtn {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
 .downnav{
-    width: 100%;
-    height: 90px;
-    background-color: rgba(51, 151, 232, 0.642);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 90px;
+  background-color: rgba(51, 151, 232, 0.642);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .downnav h2{
   color: white;
@@ -395,7 +404,7 @@ margin-bottom: 30px;
 
   .invisalign-section{
     width: 100%;
-    height: 950px;
+    height: 750px;
     background-color: beige;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
     url(./Assets/Invisalign.png);
@@ -429,17 +438,16 @@ margin-bottom: 30px;
 .footer-section{
     width: 100%;
     height: 400px;
-    background-color: cadetblue;
     padding: 0px 300px;
-
+    background-color: #135caa;
 }
 
 .footer-content{
     width: 100%;
     height: 100%;
-    background-color: #cba951;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .up-footer{
@@ -450,12 +458,21 @@ margin-bottom: 30px;
 }
 .down-footer{
     width: 100%;
-    height: 30%;
+    height: 29.4%;
+    background-color: #135caa;
+    display: flex;
+}
 
+.downbox{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .footerboxex{
-    width: 33.3333333%;
+    width: 33.3%;
     height:100%;
     display: flex;
     flex-direction: column;
@@ -489,7 +506,7 @@ margin-bottom: 30px;
     padding: 6px 20px ;
     border-radius: 6px;
     border: none;
-    background-color: #cba951 ;
+    background-color:#135caa ;
     color: white;
     margin-top: 20px;
 
@@ -718,7 +735,107 @@ margin-bottom: 30px;
         background-color: white; 
         color: #cba951; 
     }
-    
+
+    .footer-section{
+      width: 100%;
+      height: 900px;
+      padding: 0px 20px;
+      background-color: #135caa;
+  }
+  
+  .footer-content{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .up-footer{
+      width: 100%;
+      height: 70%;
+      background-color: #135caa;
+      display: flex;
+      flex-direction: column;
+      font-family: "Noto Sans", sans-serif;
+
+  }
+
+  .down-footer{
+    width: 100%;
+    height:auto;
+    background-color: #135caa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .downbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+
+  }
+  
+  .footerboxex{
+      width: 100%;
+      height:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+  }
+  
+  .footerboxexs{
+      width: 100%;
+      height:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+  }
+  
+  .icons{
+      display: flex;
+      margin-top: 30px;
+  }
+  
+  .icons i{
+      margin-left: 9px;
+  }
+  
+  .footerbutton{
+      width: auto;
+      font-size: 20px;
+      padding: 6px 20px ;
+      border-radius: 6px;
+      border: none;
+      background-color:#135caa ;
+      color: white;
+      margin-top: 20px;
+  
+  }
+  .invisalign-section h1 {
+    color: white;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.invisalign-button {
+  width: auto;
+  padding: 10px 60px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  color: #135caa;
+  margin-top: 20px;
+}
     
     
     
@@ -729,9 +846,86 @@ margin-bottom: 30px;
 
 
   @media only screen and (max-width: 1200px) {
+    .navbar{
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      padding: 0px;
+    }
 
+    .righticons {
+      display: none;
+    }
+    #check{
+      display: none;
+    }
+  
+    .checkbtn {
+      display: block;
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      color: white;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  
+    #check:checked ~ .righticons {
+      display: flex;
+      position: absolute;
+      top: 100px;
+      right: 0;
+      width: 100%;
+      height: 100vh;
+      background-color:rgba(255, 255, 255, 0.525);
+      backdrop-filter: blur(10px);
+      color: white;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 15;
+    }
+
+    
+  
+    .down ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .down li {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+
+    .up {
+      display: flex;
+      justify-content: end;
+      flex-direction: column;
+  }
+  .navbuttons {
+      background-color: white;
+      color: #2a619c;
+      padding: 6px;
+      border: 2px solid #2a619c;
+      font-size: 21px;
+      margin-left: 20px;
+      border-radius: 20px;
+      font-family: "Noto Sans", sans-serif;
+      margin: 3px;
+ 
+}
+    
     .downnav h2{
         font-size: 13px;
+    }
+
+    .logo img{
+      width: 150px;
+      height: 100px;
     }
 
     .aboutsection{
